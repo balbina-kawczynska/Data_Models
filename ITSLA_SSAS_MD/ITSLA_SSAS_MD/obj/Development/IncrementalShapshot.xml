@@ -26,42 +26,42 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>E/TeOYdFMBMq1xQyA+I0fz0jGCY=28/01/2019 13:48:5028/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>E/TeOYdFMBMq1xQyA+I0fz0jGCY=28/01/2019 15:46:1528/01/2019 12:59:44</TimeStamp>
         <ID>
           <String>ContosoDSV</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>dbN8bNrGYE7+oO0GlBa1R+DvSKM=28/01/2019 14:14:4128/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>MeqPBO0GUBlxcNRaeAZnJ9gSles=28/01/2019 15:46:1528/01/2019 12:59:44</TimeStamp>
         <ID>
-          <String>DimMachine</String>
+          <String>DimDate</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>0YBQ3L2OnbQssGza4xs6H93SMW4=28/01/2019 13:37:4028/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>0YBQ3L2OnbQssGza4xs6H93SMW4=28/01/2019 15:46:1528/01/2019 12:59:44</TimeStamp>
         <ID>
           <String>DimOutage</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>7Jchy1avEu36O3ZwhBwDRZXs/Lw=28/01/2019 13:43:3128/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>7Jchy1avEu36O3ZwhBwDRZXs/Lw=28/01/2019 15:46:1528/01/2019 12:59:44</TimeStamp>
         <ID>
           <String>DimStore</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>MeqPBO0GUBlxcNRaeAZnJ9gSles=28/01/2019 14:13:4428/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>aA65G/czwATJJR1XSc3/z2grSxs=28/01/2019 16:44:4928/01/2019 12:59:44</TimeStamp>
         <ID>
-          <String>DimDate</String>
+          <String>DimMachine</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>IUKh8lKmUPRHrXi7FEH2uukqE8E=28/01/2019 14:17:4628/01/2019 12:59:44wzzid/KiDxCWfEbiVMVQLtZcrU0=28/01/2019 13:49:3828/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>w6hNzyNkTBJ28miF7uWL/jWROHs=28/01/2019 16:35:0328/01/2019 12:59:44wzzid/KiDxCWfEbiVMVQLtZcrU0=28/01/2019 13:49:3828/01/2019 12:59:44</TimeStamp>
         <ID>
           <String>ContosoCubeITSLA</String>
         </ID>
@@ -78,5 +78,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-01-28T13:18:16.19Z</LastDeployed>
+  <LastDeployed>2019-01-28T15:45:01.01Z</LastDeployed>
 </DeploymentSnapshot>

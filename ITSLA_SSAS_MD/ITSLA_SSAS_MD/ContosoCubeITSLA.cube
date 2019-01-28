@@ -227,6 +227,11 @@
           <AttributeID>Machine OS</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="5a67ba59-e23e-4b66-9a97-a5734f4ac234">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="9d10f067-25a5-4537-b5e2-ad9ecb4bd909">
       <ID>DimDate</ID>
