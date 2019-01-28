@@ -33,21 +33,21 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>58h9B+VBGrFbjbTDqMrZ7wxmbRw=28/01/2019 12:59:4428/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>YLymWvz0Kdm8ftIpiyt9AscrqwM=28/01/2019 13:37:1228/01/2019 12:59:44</TimeStamp>
         <ID>
           <String>DimMachine</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>cZvt5LWqQheqOZ9Lkb0wDXP+3fg=28/01/2019 12:59:4428/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>0YBQ3L2OnbQssGza4xs6H93SMW4=28/01/2019 13:37:4028/01/2019 12:59:44</TimeStamp>
         <ID>
           <String>DimOutage</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>BbQQ2SHqVGX/oy/49rH1SV2rdCg=28/01/2019 12:59:4428/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>7Jchy1avEu36O3ZwhBwDRZXs/Lw=28/01/2019 13:43:3128/01/2019 12:59:44</TimeStamp>
         <ID>
           <String>DimStore</String>
         </ID>
@@ -61,7 +61,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>qtiavLVRENDemQ+aOVoahy+IROQ=28/01/2019 13:12:0928/01/2019 12:59:44wzzid/KiDxCWfEbiVMVQLtZcrU0=28/01/2019 12:59:4428/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>N12Fb7eBsnvDGxXUXZQJQ4b2iCE=28/01/2019 13:41:2828/01/2019 12:59:44wzzid/KiDxCWfEbiVMVQLtZcrU0=28/01/2019 12:59:4428/01/2019 12:59:44</TimeStamp>
         <ID>
           <String>ContosoCubeITSLA</String>
         </ID>
@@ -78,5 +78,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-01-28T12:32:37.3Z</LastDeployed>
+  <LastDeployed>2019-01-28T12:43:40.483333Z</LastDeployed>
 </DeploymentSnapshot>

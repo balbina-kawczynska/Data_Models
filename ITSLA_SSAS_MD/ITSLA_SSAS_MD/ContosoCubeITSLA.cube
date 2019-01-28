@@ -199,9 +199,6 @@
         <Attribute dwd:design-time-name="ee863078-a276-443e-8b24-a0e92d1c6412">
           <AttributeID>Machine Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9d463d04-da9f-4709-b6b9-d1a8215831f0">
-          <AttributeID>Machine Label</AttributeID>
-        </Attribute>
         <Attribute dwd:design-time-name="a90d44c5-a6c9-420d-9cc3-6485bf8ba924">
           <AttributeID>Machine Type</AttributeID>
         </Attribute>
@@ -260,9 +257,6 @@
         <Attribute dwd:design-time-name="96337d7d-dc22-4368-b72f-991988271aec">
           <AttributeID>Outage Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a782923d-7dbf-4a31-8410-dd958903201a">
-          <AttributeID>Outage Label</AttributeID>
-        </Attribute>
         <Attribute dwd:design-time-name="59fa6c2f-9079-4244-9c40-00aebac22ef0">
           <AttributeID>Outage Name</AttributeID>
         </Attribute>
@@ -284,9 +278,6 @@
         </Attribute>
         <Attribute dwd:design-time-name="3448ea42-555e-4ea6-963a-b55d458ea424">
           <AttributeID>Store Type</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="a0ebaba3-99c2-44f3-82a8-20379afc34fa">
-          <AttributeID>Store Name</AttributeID>
         </Attribute>
         <Attribute dwd:design-time-name="c5619c83-baf3-43ca-aa20-4717d96f9625">
           <AttributeID>Store Description</AttributeID>
