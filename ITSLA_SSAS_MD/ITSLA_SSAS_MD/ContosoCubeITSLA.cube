@@ -354,6 +354,12 @@
         <Attribute dwd:design-time-name="cf37df70-fa73-453a-9102-75e940f75ab8">
           <AttributeID>Status</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="eba0957d-1623-4d74-88d2-d36bd1fb055c">
+          <AttributeID>Geography Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9f6c1fd8-d4e2-41c2-86f9-8821f8dd7232">
+          <AttributeID>Entity Key</AttributeID>
+        </Attribute>
       </Attributes>
     </Dimension>
     <Dimension dwd:design-time-name="35ef603a-a751-4f11-b6d6-4141b66b5205">
@@ -527,6 +533,19 @@
               <Type>Granularity</Type>
             </Attribute>
           </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="ca16de67-881f-4444-9000-1d5f06811bd3">
+          <CubeDimensionID>DimGeography</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="78b42407-107c-4b6a-b56d-3a176b417fed">
+              <AttributeID>Geography Key</AttributeID>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+          <IntermediateCubeDimensionID>DimStore</IntermediateCubeDimensionID>
+          <IntermediateGranularityAttributeID>Geography Key</IntermediateGranularityAttributeID>
+          <Materialization>Regular</Materialization>
+          <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
       </Dimensions>
       <Partitions />

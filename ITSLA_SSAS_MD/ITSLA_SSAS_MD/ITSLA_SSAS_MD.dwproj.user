@@ -3,12 +3,13 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <TargetServer>localhost</TargetServer>
-        <TargetDatabase>ITSLA_SSAS_MD</TargetDatabase>
+        <TargetServer>DESKTOP-VSOL9E4</TargetServer>
+        <TargetDatabase>SSAS_MD</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>
           <ObjectType>Current</ObjectType>
         </StartObject>
+        <ProcessingOption>DoNotProcess</ProcessingOption>
       </Options>
     </Configuration>
   </Configurations>
