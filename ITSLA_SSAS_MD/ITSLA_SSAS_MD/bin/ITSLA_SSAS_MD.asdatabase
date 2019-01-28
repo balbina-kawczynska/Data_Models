@@ -78,6 +78,25 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
           <Value>100</Value>
         </Annotation>
+        <Annotation>
+          <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+          <Value>
+            <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+              <Shapes NodeWidth="126">
+                <Shape Id="Machine Key" Expanded="true">
+                  <Attributes>
+                    <Attribute Id="Machine Key" />
+                    <Attribute Id="Machine Name" />
+                    <Attribute Id="Machine OS" />
+                    <Attribute Id="Machine Type" />
+                    <Attribute Id="Vendor Name" />
+                  </Attributes>
+                  <Position x="20" y="20" />
+                </Shape>
+              </Shapes>
+            </DiagramLayout>
+          </Value>
+        </Annotation>
       </Annotations>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
@@ -112,6 +131,12 @@
               <ColumnID>MachineLabel</ColumnID>
             </Source>
           </NameColumn>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Sprzet</Caption>
+            </Translation>
+          </Translations>
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>Machine Type</AttributeID>
@@ -147,6 +172,12 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Typ</Caption>
+            </Translation>
+          </Translations>
           <OrderBy>Key</OrderBy>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -164,6 +195,12 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Nazwa</Caption>
+            </Translation>
+          </Translations>
           <OrderBy>Key</OrderBy>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -181,6 +218,12 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Dostawca</Caption>
+            </Translation>
+          </Translations>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -197,6 +240,12 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>System</Caption>
+            </Translation>
+          </Translations>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
         </Attribute>
@@ -559,7 +608,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="9" scrolltop="-4504" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="95" x="3916" y="13309" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="9" scrolltop="-4504" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="95" x="3916" y="12779" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                 </font>
@@ -684,6 +733,12 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Data</Caption>
+            </Translation>
+          </Translations>
           <AttributeRelationships>
             <AttributeRelationship>
               <AttributeID>Full Date Label</AttributeID>
@@ -736,6 +791,12 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Opis</Caption>
+            </Translation>
+          </Translations>
           <OrderBy>Key</OrderBy>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -753,6 +814,12 @@
               </Source>
             </KeyColumn>
           </KeyColumns>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>CzyRoboczy</Caption>
+            </Translation>
+          </Translations>
           <OrderBy>Key</OrderBy>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
           <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -877,26 +944,56 @@
         <Hierarchy>
           <ID>Hierarchy</ID>
           <Name>Hierarchy</Name>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Hierarchia YHQM</Caption>
+            </Translation>
+          </Translations>
           <Levels>
             <Level>
               <ID>Calendar Year</ID>
               <Name>Calendar Year</Name>
               <SourceAttributeID>Calendar Year</SourceAttributeID>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Rok</Caption>
+                </Translation>
+              </Translations>
             </Level>
             <Level>
               <ID>Calendar Half Year</ID>
               <Name>Calendar Half Year</Name>
               <SourceAttributeID>Calendar Half Year</SourceAttributeID>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Polrocze</Caption>
+                </Translation>
+              </Translations>
             </Level>
             <Level>
               <ID>Calendar Quarter</ID>
               <Name>Calendar Quarter</Name>
               <SourceAttributeID>Calendar Quarter</SourceAttributeID>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Kwartal</Caption>
+                </Translation>
+              </Translations>
             </Level>
             <Level>
               <ID>Calendar Month</ID>
               <Name>Calendar Month</Name>
               <SourceAttributeID>Calendar Month</SourceAttributeID>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Miesiac</Caption>
+                </Translation>
+              </Translations>
             </Level>
           </Levels>
         </Hierarchy>
@@ -915,7 +1012,7 @@
           <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
           <Value>
             <dds xmlns="">
-              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="21" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-725" scrolltop="-1003" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8017" y="13309" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+              <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="22" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-725" scrolltop="-1003" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8017" y="12779" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                 <font>
                   <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                 </font>
@@ -926,7 +1023,7 @@
               <layoutmanager>
                 <ddsxmlobj />
               </layoutmanager>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vFactITSLA" left="5727" top="5528" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="3334" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vFactITSLA" left="5727" top="5528" logicalid="11" controlid="1" masterid="0" hint1="0" hint2="0" width="3334" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000c0000060d000043110000" />
                 </control>
@@ -935,7 +1032,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimMachine" left="11461" top="5238" logicalid="11" controlid="2" masterid="0" hint1="0" hint2="0" width="3704" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimMachine" left="11461" top="5238" logicalid="12" controlid="2" masterid="0" hint1="0" hint2="0" width="3704" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000c0000780e000088130000" />
                 </control>
@@ -946,7 +1043,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimDate" left="5331" top="-1822" logicalid="12" controlid="3" masterid="0" hint1="0" hint2="0" width="4101" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimDate" left="5331" top="-1822" logicalid="13" controlid="3" masterid="0" hint1="0" hint2="0" width="4101" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000c00000510000043110000" />
                 </control>
@@ -957,7 +1054,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline" left="6982" top="2098" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="799" height="3730" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline" left="6982" top="2098" logicalid="14" controlid="4" masterid="0" hint1="0" hint2="0" width="799" height="3730" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
                     <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -977,7 +1074,7 @@
                   <point x="7394" y="5528" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline" left="8761" top="7339" logicalid="14" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline" left="8761" top="7339" logicalid="15" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
                     <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -997,7 +1094,7 @@
                   <point x="9061" y="7737" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimOutage" left="5040" top="12427" logicalid="15" controlid="6" masterid="0" hint1="0" hint2="0" width="4683" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimOutage" left="5040" top="12427" logicalid="16" controlid="6" masterid="0" hint1="0" hint2="0" width="4683" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000c00004b12000043110000" />
                 </control>
@@ -1008,7 +1105,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline" left="6982" top="9647" logicalid="16" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3280" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline" left="6982" top="9647" logicalid="17" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3280" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
                     <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -1028,7 +1125,7 @@
                   <point x="7394" y="9947" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimStore" left="20" top="6163" logicalid="17" controlid="8" masterid="0" hint1="0" hint2="0" width="3307" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vDimStore" left="20" top="6163" logicalid="18" controlid="8" masterid="0" hint1="0" hint2="0" width="3307" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000c0000eb0c00004d0c0000" />
                 </control>
@@ -1039,7 +1136,7 @@
                 </layoutobject>
                 <shape groupshapeid="0" groupnode="0" />
               </ddscontrol>
-              <ddscontrol controlprogid="MSDDS.Polyline" left="3027" top="7338" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="MSDDS.Polyline" left="3027" top="7338" logicalid="19" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobj>
                     <polyline endtypedst="6" endtypesrc="3" usercolor="15856113" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -1057,7 +1154,7 @@
                   <point x="5727" y="7737" />
                 </connector>
               </ddscontrol>
-              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vFactITSLA" left="0" top="0" logicalid="20" controlid="11" masterid="0" hint1="0" hint2="0" width="3387" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+              <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="vFactITSLA" left="0" top="0" logicalid="20" controlid="10" masterid="0" hint1="0" hint2="0" width="3387" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                 <control>
                   <ddsxmlobjectstreaminitwrapper binary="000c00003b0d0000ea120000" />
                 </control>
@@ -1110,6 +1207,12 @@
         <Dimension>
           <ID>DimMachine</ID>
           <Name>DimMachine</Name>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Sprzet</Caption>
+            </Translation>
+          </Translations>
           <DimensionID>DimMachine</DimensionID>
           <Attributes>
             <Attribute>
@@ -1132,6 +1235,12 @@
         <Dimension>
           <ID>DimDate</ID>
           <Name>DimDate</Name>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Data</Caption>
+            </Translation>
+          </Translations>
           <DimensionID>DimDate</DimensionID>
           <Attributes>
             <Attribute>
@@ -1168,6 +1277,12 @@
         <Dimension>
           <ID>DimOutage</ID>
           <Name>DimOutage</Name>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Przestoj</Caption>
+            </Translation>
+          </Translations>
           <DimensionID>DimOutage</DimensionID>
           <Attributes>
             <Attribute>
@@ -1187,6 +1302,12 @@
         <Dimension>
           <ID>DimStore</ID>
           <Name>DimStore</Name>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>Sklep</Caption>
+            </Translation>
+          </Translations>
           <DimensionID>DimStore</DimensionID>
           <Attributes>
             <Attribute>
@@ -1212,6 +1333,12 @@
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
+          <Translations>
+            <Translation>
+              <Language>1045</Language>
+              <Caption>FactITSLA</Caption>
+            </Translation>
+          </Translations>
           <Measures>
             <Measure>
               <ID>Down Time</ID>
@@ -1224,6 +1351,12 @@
                 </Source>
               </Source>
               <FormatString>#,##0</FormatString>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Przestoj (m)</Caption>
+                </Translation>
+              </Translations>
             </Measure>
             <Measure>
               <ID>v Fact ITSLA Count</ID>
@@ -1237,6 +1370,12 @@
                 </Source>
               </Source>
               <FormatString>#,##0</FormatString>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Liczba wierszy</Caption>
+                </Translation>
+              </Translations>
             </Measure>
             <Measure>
               <ID>Down Time Hrs</ID>
@@ -1249,6 +1388,12 @@
                 </Source>
               </Source>
               <FormatString>#,##0.00</FormatString>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>Przestoj (h)</Caption>
+                </Translation>
+              </Translations>
             </Measure>
           </Measures>
           <StorageMode>Molap</StorageMode>

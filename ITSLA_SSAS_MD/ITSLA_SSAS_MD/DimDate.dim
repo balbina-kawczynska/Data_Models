@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="9" scrolltop="-4504" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="95" x="3916" y="13309" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="9" scrolltop="-4504" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="95" x="3916" y="12779" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -133,6 +133,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="be657cc2-fb11-49d8-94fc-c98b01109bf9">
+          <Language>1045</Language>
+          <Caption>Data</Caption>
+        </Translation>
+      </Translations>
       <AttributeRelationships>
         <AttributeRelationship dwd:design-time-name="0f07f86f-0376-48cc-b625-323c0d0c6726">
           <AttributeID>Full Date Label</AttributeID>
@@ -185,6 +191,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="658774f6-dcc1-42f2-87a8-e1c93cc58a0f">
+          <Language>1045</Language>
+          <Caption>Opis</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -202,6 +214,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <Translations>
+        <Translation dwd:design-time-name="2ea23434-fbcf-4c21-aeb1-69f0af1245fc">
+          <Language>1045</Language>
+          <Caption>CzyRoboczy</Caption>
+        </Translation>
+      </Translations>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
@@ -326,26 +344,56 @@
     <Hierarchy dwd:design-time-name="f827f513-e13f-489e-80ec-227de9fa5f62">
       <ID>Hierarchy</ID>
       <Name>Hierarchy</Name>
+      <Translations>
+        <Translation dwd:design-time-name="7ce86a7b-b720-4b55-8b30-efb720098732">
+          <Language>1045</Language>
+          <Caption>Hierarchia YHQM</Caption>
+        </Translation>
+      </Translations>
       <Levels>
         <Level dwd:design-time-name="f114175e-df92-4506-a7fb-9cce8570f5e5">
           <ID>Calendar Year</ID>
           <Name>Calendar Year</Name>
           <SourceAttributeID>Calendar Year</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="f9058ad7-5035-4b45-bb1e-0a2712f1d5b6">
+              <Language>1045</Language>
+              <Caption>Rok</Caption>
+            </Translation>
+          </Translations>
         </Level>
         <Level dwd:design-time-name="4a1c162f-2faa-4ed9-8b1c-81feb6927f1e">
           <ID>Calendar Half Year</ID>
           <Name>Calendar Half Year</Name>
           <SourceAttributeID>Calendar Half Year</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="8b03eddf-e0d3-4aa7-9f46-17548171f2b1">
+              <Language>1045</Language>
+              <Caption>Polrocze</Caption>
+            </Translation>
+          </Translations>
         </Level>
         <Level dwd:design-time-name="22ad089b-97ac-4e16-8c4a-1c3ce509d297">
           <ID>Calendar Quarter</ID>
           <Name>Calendar Quarter</Name>
           <SourceAttributeID>Calendar Quarter</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="9ec9aee4-7118-4c7e-b9d8-5ac30f1696a5">
+              <Language>1045</Language>
+              <Caption>Kwartal</Caption>
+            </Translation>
+          </Translations>
         </Level>
         <Level dwd:design-time-name="7bac8bb1-8f1d-405d-a3a0-8226428eeeae">
           <ID>Calendar Month</ID>
           <Name>Calendar Month</Name>
           <SourceAttributeID>Calendar Month</SourceAttributeID>
+          <Translations>
+            <Translation dwd:design-time-name="5450cf8b-2bdc-43d3-b26e-478e89a56dab">
+              <Language>1045</Language>
+              <Caption>Miesiac</Caption>
+            </Translation>
+          </Translations>
         </Level>
       </Levels>
     </Hierarchy>

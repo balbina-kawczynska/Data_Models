@@ -33,7 +33,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>YLymWvz0Kdm8ftIpiyt9AscrqwM=28/01/2019 13:37:1228/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>dbN8bNrGYE7+oO0GlBa1R+DvSKM=28/01/2019 14:14:4128/01/2019 12:59:44</TimeStamp>
         <ID>
           <String>DimMachine</String>
         </ID>
@@ -54,14 +54,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>a3rnCAxP94OK4nUTNwgSsSfaKys=28/01/2019 13:32:3328/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>MeqPBO0GUBlxcNRaeAZnJ9gSles=28/01/2019 14:13:4428/01/2019 12:59:44</TimeStamp>
         <ID>
           <String>DimDate</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>8SLJobrHJdIY3NFxUKRIaR3SDCs=28/01/2019 13:55:1728/01/2019 12:59:44wzzid/KiDxCWfEbiVMVQLtZcrU0=28/01/2019 13:49:3828/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>IUKh8lKmUPRHrXi7FEH2uukqE8E=28/01/2019 14:17:4628/01/2019 12:59:44wzzid/KiDxCWfEbiVMVQLtZcrU0=28/01/2019 13:49:3828/01/2019 12:59:44</TimeStamp>
         <ID>
           <String>ContosoCubeITSLA</String>
         </ID>
@@ -78,5 +78,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-01-28T12:56:00.076667Z</LastDeployed>
+  <LastDeployed>2019-01-28T13:18:16.19Z</LastDeployed>
 </DeploymentSnapshot>
