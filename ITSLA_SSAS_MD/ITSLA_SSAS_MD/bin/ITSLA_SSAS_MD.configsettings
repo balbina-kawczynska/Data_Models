@@ -12,9 +12,6 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>DimDate</ID>
-      </Dimension>
-      <Dimension>
         <ID>DimMachine</ID>
       </Dimension>
       <Dimension>
@@ -22,6 +19,9 @@
       </Dimension>
       <Dimension>
         <ID>DimStore</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DimDate</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
