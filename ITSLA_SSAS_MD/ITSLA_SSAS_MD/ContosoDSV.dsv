@@ -238,10 +238,10 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="CalendarYear" msprop:DbColumnName="CalendarYear" msprop:design-time-name="a8b65b4b-d8ea-441a-a0d3-9f91bd818493" type="xs:int" minOccurs="0" />
-                  <xs:element name="CalendarHalfYear" msprop:DbColumnName="CalendarHalfYear" msprop:design-time-name="7ea5f3a9-c7e8-4336-8ff3-e1885fe8ea9c" type="xs:int" minOccurs="0" />
-                  <xs:element name="CalendarQuarter" msprop:DbColumnName="CalendarQuarter" msprop:design-time-name="4146c8d0-b60c-474f-be93-66ff7645f43c" type="xs:int" minOccurs="0" />
-                  <xs:element name="CalendarMonth" msprop:DbColumnName="CalendarMonth" msprop:design-time-name="0027ef3d-6494-422e-bc19-8760a276afa7" type="xs:int" minOccurs="0" />
+                  <xs:element name="CalendarYear" msprop:design-time-name="a8b65b4b-d8ea-441a-a0d3-9f91bd818493" msprop:DbColumnName="CalendarYear" type="xs:int" minOccurs="0" />
+                  <xs:element name="CalendarHalfYear" msprop:design-time-name="7ea5f3a9-c7e8-4336-8ff3-e1885fe8ea9c" msprop:DbColumnName="CalendarHalfYear" type="xs:int" minOccurs="0" />
+                  <xs:element name="CalendarQuarter" msprop:design-time-name="4146c8d0-b60c-474f-be93-66ff7645f43c" msprop:DbColumnName="CalendarQuarter" type="xs:int" minOccurs="0" />
+                  <xs:element name="CalendarMonth" msprop:design-time-name="0027ef3d-6494-422e-bc19-8760a276afa7" msprop:DbColumnName="CalendarMonth" type="xs:int" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -424,6 +424,7 @@
                   <xs:element name="OutageStartTime" msprop:design-time-name="e66e75e2-98c9-4083-881f-fc34dd6a695e" msprop:DbColumnName="OutageStartTime" msprop:FriendlyName="OutageStartTime" type="xs:dateTime" />
                   <xs:element name="OutageEndTime" msprop:design-time-name="14593f12-38f7-4ae3-83c9-b99aadd1862d" msprop:DbColumnName="OutageEndTime" msprop:FriendlyName="OutageEndTime" type="xs:dateTime" />
                   <xs:element name="DownTime" msprop:design-time-name="f3681ffa-1052-46d8-890c-36752e9bbb13" msprop:DbColumnName="DownTime" msprop:FriendlyName="DownTime" type="xs:int" />
+                  <xs:element name="DownTimeHrs" msprop:DbColumnName="DownTimeHrs" msprop:design-time-name="94ad57e0-1fde-4481-8849-bc78e201c046" type="xs:decimal" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>

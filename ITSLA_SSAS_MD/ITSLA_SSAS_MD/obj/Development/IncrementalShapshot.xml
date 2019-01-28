@@ -26,7 +26,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>NWC5ANE3tqWlQouJKiJGGT9wfuw=28/01/2019 13:05:4428/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>E/TeOYdFMBMq1xQyA+I0fz0jGCY=28/01/2019 13:48:5028/01/2019 12:59:44</TimeStamp>
         <ID>
           <String>ContosoDSV</String>
         </ID>
@@ -61,7 +61,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>N12Fb7eBsnvDGxXUXZQJQ4b2iCE=28/01/2019 13:41:2828/01/2019 12:59:44wzzid/KiDxCWfEbiVMVQLtZcrU0=28/01/2019 12:59:4428/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>8SLJobrHJdIY3NFxUKRIaR3SDCs=28/01/2019 13:55:1728/01/2019 12:59:44wzzid/KiDxCWfEbiVMVQLtZcrU0=28/01/2019 13:49:3828/01/2019 12:59:44</TimeStamp>
         <ID>
           <String>ContosoCubeITSLA</String>
         </ID>
@@ -78,5 +78,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-01-28T12:43:40.483333Z</LastDeployed>
+  <LastDeployed>2019-01-28T12:56:00.076667Z</LastDeployed>
 </DeploymentSnapshot>
