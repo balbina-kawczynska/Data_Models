@@ -12,6 +12,12 @@
       <FullPath>ContosoDS.ds</FullPath>
     </ProjectItem>
   </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>ContosoDSV.dsv</Name>
+      <FullPath>ContosoDSV.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
