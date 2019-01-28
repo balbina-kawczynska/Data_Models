@@ -26,42 +26,49 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>E/TeOYdFMBMq1xQyA+I0fz0jGCY=28/01/2019 15:46:1528/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>WO/wu+iyaQsLgccvgbGIcWCA7zE=28/01/2019 21:19:4328/01/2019 12:59:44</TimeStamp>
         <ID>
           <String>ContosoDSV</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>MeqPBO0GUBlxcNRaeAZnJ9gSles=28/01/2019 15:46:1528/01/2019 12:59:44</TimeStamp>
-        <ID>
-          <String>DimDate</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>0YBQ3L2OnbQssGza4xs6H93SMW4=28/01/2019 15:46:1528/01/2019 12:59:44</TimeStamp>
-        <ID>
-          <String>DimOutage</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>7Jchy1avEu36O3ZwhBwDRZXs/Lw=28/01/2019 15:46:1528/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>7Jchy1avEu36O3ZwhBwDRZXs/Lw=28/01/2019 21:19:4328/01/2019 12:59:44</TimeStamp>
         <ID>
           <String>DimStore</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>aA65G/czwATJJR1XSc3/z2grSxs=28/01/2019 16:44:4928/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>0YBQ3L2OnbQssGza4xs6H93SMW4=28/01/2019 21:19:4328/01/2019 12:59:44</TimeStamp>
+        <ID>
+          <String>DimOutage</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>aA65G/czwATJJR1XSc3/z2grSxs=28/01/2019 21:19:4328/01/2019 12:59:44</TimeStamp>
         <ID>
           <String>DimMachine</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>MeqPBO0GUBlxcNRaeAZnJ9gSles=28/01/2019 21:19:4328/01/2019 12:59:44</TimeStamp>
+        <ID>
+          <String>DimDate</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>VL0rOzom+Sm52lNDkT6r9jB6X3Q=28/01/2019 21:19:4328/01/2019 21:19:43</TimeStamp>
+        <ID>
+          <String>DimGeography</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>w6hNzyNkTBJ28miF7uWL/jWROHs=28/01/2019 16:35:0328/01/2019 12:59:44wzzid/KiDxCWfEbiVMVQLtZcrU0=28/01/2019 13:49:3828/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>GJxXsaRzQZPIYDeyaz/n5ULwCMQ=28/01/2019 21:19:4328/01/2019 12:59:44wzzid/KiDxCWfEbiVMVQLtZcrU0=28/01/2019 13:49:3828/01/2019 12:59:44</TimeStamp>
         <ID>
           <String>ContosoCubeITSLA</String>
         </ID>
@@ -78,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-01-28T15:45:01.01Z</LastDeployed>
+  <LastDeployed>2019-01-28T20:20:56.496667Z</LastDeployed>
 </DeploymentSnapshot>
