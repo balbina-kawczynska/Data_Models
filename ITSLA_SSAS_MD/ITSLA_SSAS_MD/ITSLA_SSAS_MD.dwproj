@@ -6,6 +6,24 @@
     <Name>ITSLA_SSAS_MD.database</Name>
     <FullPath>ITSLA_SSAS_MD.database</FullPath>
   </Database>
+  <Dimensions>
+    <ProjectItem>
+      <Name>DimDate.dim</Name>
+      <FullPath>DimDate.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimMachine.dim</Name>
+      <FullPath>DimMachine.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimOutage.dim</Name>
+      <FullPath>DimOutage.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>DimStore.dim</Name>
+      <FullPath>DimStore.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>ContosoDS.ds</Name>
