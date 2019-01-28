@@ -6,6 +6,18 @@
     <Name>ITSLA_SSAS_MD.database</Name>
     <FullPath>ITSLA_SSAS_MD.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>ContosoCubeITSLA.cube</Name>
+      <FullPath>ContosoCubeITSLA.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>ContosoCubeITSLA.partitions</Name>
+          <FullPath>ContosoCubeITSLA.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>DimDate.dim</Name>
