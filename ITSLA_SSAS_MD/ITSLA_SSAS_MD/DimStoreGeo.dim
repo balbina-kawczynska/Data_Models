@@ -1,0 +1,688 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5c4ccf1c-2bcb-4432-a2e8-3d987d4241c6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>DimStoreGeo</ID>
+  <Name>DimStoreGeo</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="406baf33-a5c7-4b3b-ae3a-66812fec56fb">
+    <DataSourceViewID>ContosoDSV</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="9d8404f9-8e02-440d-be28-98e7bd315d1c">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="c52b82a6-1231-4e65-a1ee-96cde5975daa">
+      <ID>Store Key</ID>
+      <Name>Store Key</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="38e36499-2787-4b15-90bf-2bbf41255d9f">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6e35e01f-6f45-4f5d-b93f-24e26245c737">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>StoreKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="23b4da21-76e5-44b2-bdf7-3bd3f7c83de4">
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="ac9f372d-d0ac-4a45-bd9a-f07dc79f65c8">
+          <TableID>olap_vDimStoreGeo</TableID>
+          <ColumnID>StoreName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="964334ef-1863-44d6-b3c7-3139a4918767">
+          <AttributeID>Store Manager</AttributeID>
+          <Name>Store Manager</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f8adf836-bb8c-4449-adbc-d914d7081e13">
+          <AttributeID>Store Type</AttributeID>
+          <Name>Store Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7c56eb14-b77b-4e27-8c09-268c55803346">
+          <AttributeID>Store Description</AttributeID>
+          <Name>Store Description</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5dcc86f6-f572-411b-b3a5-b9604ff94a42">
+          <AttributeID>Status</AttributeID>
+          <Name>Status</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="86c797c5-24fa-4bb4-9801-bfc5f1faa452">
+          <AttributeID>Open Date</AttributeID>
+          <Name>Open Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c654282e-20de-4a43-97ee-90db3b14a3ab">
+          <AttributeID>Close Date</AttributeID>
+          <Name>Close Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="68358d8a-77fa-4547-afb1-5a97e95ab42b">
+          <AttributeID>Entity Key</AttributeID>
+          <Name>Entity Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1e7856a9-7b1f-436c-8a93-c688cdc7e836">
+          <AttributeID>Zip Code</AttributeID>
+          <Name>Zip Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="612ab774-1c80-4c32-84a2-d4d7e4bc1dde">
+          <AttributeID>Zip Code Extension</AttributeID>
+          <Name>Zip Code Extension</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7cfc76b4-972b-4b5e-ada8-17320003ce2b">
+          <AttributeID>Store Phone</AttributeID>
+          <Name>Store Phone</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="03c4e642-7bcd-4890-9993-32fe25696294">
+          <AttributeID>Store Fax</AttributeID>
+          <Name>Store Fax</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="6360b0d6-40b3-4898-860e-2e67a0b230b2">
+          <AttributeID>Address Line1</AttributeID>
+          <Name>Address Line1</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="67024464-d761-480a-b105-713d20706533">
+          <AttributeID>Address Line2</AttributeID>
+          <Name>Address Line2</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="237e93da-ead1-4724-941d-06dbea60c2cf">
+          <AttributeID>Close Reason</AttributeID>
+          <Name>Close Reason</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f200ebba-9041-4572-b971-baacceab582b">
+          <AttributeID>Employee Count</AttributeID>
+          <Name>Employee Count</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0afdd229-cf93-4085-a8c5-de5c68371da7">
+          <AttributeID>Selling Area Size</AttributeID>
+          <Name>Selling Area Size</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a675ec9b-cb14-4c11-8288-1f6b8b57dfa6">
+          <AttributeID>Last Remodel Date</AttributeID>
+          <Name>Last Remodel Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="36f10ab6-5f78-4bc4-8437-1ffef5bd4fbc">
+          <AttributeID>Geo Location</AttributeID>
+          <Name>Geo Location</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2ee1030a-0846-414a-9535-fa22f6c9631d">
+          <AttributeID>Geometry</AttributeID>
+          <Name>Geometry</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bef3bfd1-ced3-400e-adb2-7f97ab24fd39">
+          <AttributeID>ETL Load ID</AttributeID>
+          <Name>ETL Load ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="de403c51-f678-468d-bb58-05203a5c27da">
+          <AttributeID>Load Date</AttributeID>
+          <Name>Load Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="25b20c08-b95c-4f3d-b5dd-5988dc209e5b">
+          <AttributeID>Update Date</AttributeID>
+          <Name>Update Date</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d1577115-20a2-4d42-961e-70f967e7f56d">
+          <AttributeID>Geography Key</AttributeID>
+          <Name>Geography Key</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2b526122-358f-44e9-a4a2-8523d1d77f56">
+          <AttributeID>Geography Type</AttributeID>
+          <Name>Geography Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8182f1d3-7e74-433d-83e4-22f7508dd002">
+          <AttributeID>Continent Name</AttributeID>
+          <Name>Continent Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cc61eb87-44ce-42d2-8086-7a66ded8e6d2">
+          <AttributeID>City Name</AttributeID>
+          <Name>City Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fead5920-f099-45c5-840f-679d0473ef3f">
+          <AttributeID>State Province Name</AttributeID>
+          <Name>State Province Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="53d84aa6-3eb3-46a9-bd49-aa1e2c0552e9">
+          <AttributeID>Region Country Name</AttributeID>
+          <Name>Region Country Name</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="eb3e0bb2-4a30-4ff8-a4c4-232bb5014ae7">
+      <ID>Store Manager</ID>
+      <Name>Store Manager</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="03dd498f-3b85-4ee0-856f-d0d1c3be54ed">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="303d3c28-762d-45db-a410-d1a1e7715077">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>StoreManager</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b51a7027-0d3a-45a1-be0c-9e1dc5447c1a">
+      <ID>Store Type</ID>
+      <Name>Store Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="44602328-19a4-438e-baba-2277db778f9e">
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="182bd8df-134f-42c6-ab4c-87c4e4f0d871">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>StoreType</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cb7e0c67-f5aa-45b3-bfb4-c7d6240cd081">
+      <ID>Store Description</ID>
+      <Name>Store Description</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9c6af6b5-fea7-4226-8311-1a2d78480d11">
+          <DataType>WChar</DataType>
+          <DataSize>300</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e6899a1c-40ab-4f98-8058-23d4e2908c6a">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>StoreDescription</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="65b073d5-553a-423d-889f-fb9a22e8750d">
+      <ID>Status</ID>
+      <Name>Status</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ec34cd64-2473-49ca-b6cf-032eaa1839f0">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5d9e27d2-e36e-4d67-bd1b-3c52282b6cec">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>Status</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="54fa01e0-4c02-4638-a8aa-3e3623b08e68">
+      <ID>Open Date</ID>
+      <Name>Open Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d489e115-04f3-4ffe-a7ba-c2de24c27b9e">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cb556ad9-d733-4483-bdb9-f4e9b4fae8b7">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>OpenDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="56312e94-2d34-4c67-8f3f-de0b03e956a0">
+      <ID>Close Date</ID>
+      <Name>Close Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ec21923b-20f4-40f7-a6c4-cc0ee4dcbd44">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="46d9cad4-1e63-4521-aa16-6935c9b97b2c">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>CloseDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="60e1e6c2-6b68-4f5c-862f-494c7ec586dc">
+      <ID>Entity Key</ID>
+      <Name>Entity Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="41cd1d7c-6579-4f0a-b011-0855eb95dec3">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="49791b9d-3051-44e3-8a55-d1d6fa4851db">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>EntityKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3c5a282e-79b9-4f6b-9c87-4ef36faf2d66">
+      <ID>Zip Code</ID>
+      <Name>Zip Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fd249877-fe3e-42ac-92de-90fba59caa4a">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bf270576-2e6b-4e8e-a963-dbe8325b5208">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>ZipCode</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="202c1544-2865-4e3c-a0d4-2b327d8695be">
+      <ID>Zip Code Extension</ID>
+      <Name>Zip Code Extension</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="421b231f-035d-4ea1-822f-e350be51e0f2">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8915c6ca-b557-4c35-a344-b7a9053bf979">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>ZipCodeExtension</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9a4df4bf-25eb-422c-b1cf-77ea82f5c68c">
+      <ID>Store Phone</ID>
+      <Name>Store Phone</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="48b46815-0e6f-44bd-aef3-820a345867ed">
+          <DataType>WChar</DataType>
+          <DataSize>15</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="edd62cf3-3c66-42ca-85b7-ab8595c1e49b">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>StorePhone</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="07ca7701-5bce-48ae-bebf-8b5bb7957214">
+      <ID>Store Fax</ID>
+      <Name>Store Fax</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2b16ba68-be60-4870-a564-411c1446ee29">
+          <DataType>WChar</DataType>
+          <DataSize>14</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5bfcfae0-7b7f-4a66-88a4-7df2e00d807a">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>StoreFax</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e3b256f3-d95d-4e35-b415-0afdc9c50c09">
+      <ID>Address Line1</ID>
+      <Name>Address Line1</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9a957886-1f50-497c-9e38-ad86686908c2">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0e589a86-5a0b-49b5-8537-e746f9183ee3">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>AddressLine1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="71c2b16b-da9e-4ca9-9a6c-db60f2b3fa8b">
+      <ID>Address Line2</ID>
+      <Name>Address Line2</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bbf5d360-c174-4098-9cb4-fbd0469dada1">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b536c7ac-8393-4fd3-9c81-d41db2c4a969">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>AddressLine2</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="109c1dc1-615f-4b35-bc39-1380d3d61b1c">
+      <ID>Close Reason</ID>
+      <Name>Close Reason</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0b2a5ef9-78b5-41cf-9448-3ca162712779">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="195f8149-77a5-47a9-b98e-770fb677aa53">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>CloseReason</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e17fefe6-3efb-42f9-970d-387cbabaca72">
+      <ID>Employee Count</ID>
+      <Name>Employee Count</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="023e7feb-80ab-4503-86d2-200842954491">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4f8a73b0-445a-476d-b7e7-cd23443b5218">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>EmployeeCount</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ea3822e1-c74d-49bd-a019-da52ffcb09fe">
+      <ID>Selling Area Size</ID>
+      <Name>Selling Area Size</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cbdb6e18-cd9b-4bc5-af45-7f7054a26103">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f42d5f8b-0cda-4b32-b1ee-5e5365fc5e2e">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>SellingAreaSize</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="abf988d5-59d3-4a1f-83ae-e08c451bc508">
+      <ID>Last Remodel Date</ID>
+      <Name>Last Remodel Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4df53e67-1c1c-4e6f-8b5f-5a60ffe7170e">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6a9b9fb8-4fdc-4e44-9189-486dabf7a930">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>LastRemodelDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5c0e89c6-add2-4476-9298-8c0d7396c492">
+      <ID>Geo Location</ID>
+      <Name>Geo Location</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b167014d-9406-4909-82ca-6aad7c4d8f82">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="eec34c19-7ea6-4717-895b-458e967dc5f0">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>StoreKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="9e032b09-ed9d-4509-84c2-7aa34d9d5ea9">
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="b31fdf84-bbc7-4b78-9c79-22fb2d32bf8c">
+          <TableID>olap_vDimStoreGeo</TableID>
+          <ColumnID>StoreName</ColumnID>
+        </Source>
+      </NameColumn>
+      <ValueColumn dwd:design-time-name="304db237-9f39-42b2-aa91-85fe1747f45f">
+        <DataType>Binary</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="5e57db62-94d3-49f4-9901-31b4c4a14e5e">
+          <TableID>olap_vDimStoreGeo</TableID>
+          <ColumnID>GeoLocation</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="98a3b37a-cbc2-4745-bdf3-915a7018246e">
+      <ID>Geometry</ID>
+      <Name>Geometry</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c4bc4f3e-217a-4046-b23a-a07cac2607a6">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c94628c9-bc1c-45d0-b2c2-0344f622a883">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>StoreKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="a4e4ef55-9d08-47b8-aba2-2ed67d0a11cb">
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="afef0204-7fad-4c96-8c63-34c213f83276">
+          <TableID>olap_vDimStoreGeo</TableID>
+          <ColumnID>StoreName</ColumnID>
+        </Source>
+      </NameColumn>
+      <ValueColumn dwd:design-time-name="9294cb91-be48-4725-b631-6538ed7dbf84">
+        <DataType>Binary</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="e55be312-400f-4e64-897a-134381e4396d">
+          <TableID>olap_vDimStoreGeo</TableID>
+          <ColumnID>Geometry</ColumnID>
+        </Source>
+      </ValueColumn>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2411759b-be90-4ccc-833d-16f85ddd03fd">
+      <ID>ETL Load ID</ID>
+      <Name>ETL Load ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e95eafe4-a244-4f97-a00b-74e7ae1d94bd">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6a49fc60-3f38-4bee-b145-12803add4b1f">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>ETLLoadID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ca2dbafc-693d-44f6-bf2b-a5e40ea01afc">
+      <ID>Load Date</ID>
+      <Name>Load Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ab1be719-346c-4c94-a120-bf155bef58b1">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="29ea8d12-ec34-44ff-8059-700e60625e0b">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>LoadDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2a131cf9-f65a-40d7-a79f-33703dfac08f">
+      <ID>Update Date</ID>
+      <Name>Update Date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2b04d1a9-8afb-4f5d-8f4c-5e48ae05208a">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="157fcd97-9ee5-4f76-b886-130707fcf3c3">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>UpdateDate</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="904d5f54-41bc-4ff6-98c5-531599607a5c">
+      <ID>Geography Key</ID>
+      <Name>Geography Key</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f2691e87-c766-446a-a1e1-a74bbfaf2c0b">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2240e689-3720-478b-904a-72f443a9c1cd">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>GeographyKey</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c5a63455-65c6-438c-b69d-ddc9f528c168">
+      <ID>Geography Type</ID>
+      <Name>Geography Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f4a9ab04-06c5-4c29-81d2-f3b608d56a00">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1e2a9401-a158-4f03-a20d-07a689b70fe4">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>GeographyType</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e8842fe9-4e1d-4dd9-a21d-1e9b152de578">
+      <ID>Continent Name</ID>
+      <Name>Continent Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3b4ebf4e-d5bb-4310-8796-2a3238f9bf7d">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="20f2cb2e-6317-46e4-9012-b758cb71614b">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>ContinentName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7be28221-79f2-414b-a3de-8cf41c6fd4ea">
+      <ID>City Name</ID>
+      <Name>City Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8a7cba8e-d59c-4dc7-a31f-119fc70ff877">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="77c2bd88-93b7-4ddf-aa53-6bc735fbec50">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>CityName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="211d9e23-cfa9-4c9e-87d7-1db73745d6ba">
+      <ID>State Province Name</ID>
+      <Name>State Province Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1a8ed589-13ba-42c0-95aa-ee800549321e">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="03ab2a2f-4a16-4d01-a44a-718e1b17e559">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>StateProvinceName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2fdb4830-e190-41ae-973f-81f09c4accb0">
+      <ID>Region Country Name</ID>
+      <Name>Region Country Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b75d7c77-c5c0-4445-a811-6c0769ac37ba">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3b75fd64-f8a4-4151-8d65-7ab83dbfdff8">
+            <TableID>olap_vDimStoreGeo</TableID>
+            <ColumnID>RegionCountryName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

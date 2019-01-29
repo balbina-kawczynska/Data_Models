@@ -12,19 +12,22 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>DimStore</ID>
-      </Dimension>
-      <Dimension>
-        <ID>DimOutage</ID>
+        <ID>DimDate</ID>
       </Dimension>
       <Dimension>
         <ID>DimMachine</ID>
       </Dimension>
       <Dimension>
-        <ID>DimDate</ID>
+        <ID>DimOutage</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DimStore</ID>
       </Dimension>
       <Dimension>
         <ID>DimGeography</ID>
+      </Dimension>
+      <Dimension>
+        <ID>DimStoreGeo</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
