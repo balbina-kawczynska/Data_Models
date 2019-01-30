@@ -74,8 +74,15 @@
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2GuDAkj95ROoGinnDuzn359bbhg=30/01/2019 17:29:0530/01/2019 17:26:28</TimeStamp>
+        <ID>
+          <String>DDimMachine</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>V4s4ATMF6oob6bqiUeo6N1/bu2Q=30/01/2019 17:12:3928/01/2019 12:59:44hB0BKso1HP1EzaDWSiBYfovH5IU=30/01/2019 16:52:4428/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>Daznyk/FYWtxOMNF1F2OVQ6070I=30/01/2019 17:31:2428/01/2019 12:59:44hB0BKso1HP1EzaDWSiBYfovH5IU=30/01/2019 16:52:4428/01/2019 12:59:44</TimeStamp>
         <ID>
           <String>ContosoCubeITSLA</String>
         </ID>
@@ -92,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-01-30T16:12:43.846667Z</LastDeployed>
+  <LastDeployed>2019-01-30T16:33:31.756667Z</LastDeployed>
 </DeploymentSnapshot>
