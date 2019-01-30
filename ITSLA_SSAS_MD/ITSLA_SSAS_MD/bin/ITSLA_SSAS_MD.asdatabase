@@ -2201,6 +2201,284 @@
           </Attributes>
         </Dimension>
       </Dimensions>
+      <Perspectives>
+        <Perspective>
+          <ID>Perspective</ID>
+          <Name>Prs_ITSLA</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>DimMachine</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Machine Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Machine Type</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Machine Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Vendor Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Machine OS</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DimDate</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Datekey</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Full Date Label</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Date Description</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Is Work Day</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Year</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Half Year</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Quarter</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Month</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DimOutage</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Outage Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Outage Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Outage Description</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Outage Type</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DimStore</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Store Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Store Type</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Store Description</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Status</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Geography Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Entity Key</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DimGeography</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Geography Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Geography Type</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Continent Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>City Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>State Province Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Region Country Name</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DimEntity</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Entity Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Parent Entity Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Entity Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Entity Description</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Entity Type</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Status</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <MeasureGroups>
+            <MeasureGroup>
+              <MeasureGroupID>v Fact ITSLA</MeasureGroupID>
+              <Measures>
+                <Measure>
+                  <MeasureID>Down Time</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>v Fact ITSLA Count</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Down Time Hrs</MeasureID>
+                </Measure>
+              </Measures>
+            </MeasureGroup>
+          </MeasureGroups>
+        </Perspective>
+        <Perspective>
+          <ID>Perspective 1</ID>
+          <Name>Prs_ITMachine</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>DimMachine</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Machine Key</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Machine Type</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Machine Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Vendor Name</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Machine OS</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DimDate</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Datekey</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Full Date Label</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Date Description</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Is Work Day</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Year</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Half Year</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Quarter</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Calendar Month</AttributeID>
+                </Attribute>
+              </Attributes>
+              <Hierarchies>
+                <Hierarchy>
+                  <HierarchyID>Hierarchy</HierarchyID>
+                </Hierarchy>
+              </Hierarchies>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>DDimMachine</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>IT Machinekey</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Cost Type</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+          <MeasureGroups>
+            <MeasureGroup>
+              <MeasureGroupID>v Fact IT Machine</MeasureGroupID>
+              <Measures>
+                <Measure>
+                  <MeasureID>Cost Amount</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>v Fact IT Machine Count</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Minimum Cost Amount</MeasureID>
+                </Measure>
+                <Measure>
+                  <MeasureID>Maximum Cost Amount</MeasureID>
+                </Measure>
+              </Measures>
+            </MeasureGroup>
+          </MeasureGroups>
+          <Calculations>
+            <Calculation>
+              <Name>[Measures].[Max-Min]</Name>
+              <Type>Member</Type>
+            </Calculation>
+            <Calculation>
+              <Name>[Measures].[KosztSredni]</Name>
+              <Type>Member</Type>
+            </Calculation>
+          </Calculations>
+        </Perspective>
+      </Perspectives>
       <MeasureGroups>
         <MeasureGroup>
           <ID>v Fact ITSLA</ID>
