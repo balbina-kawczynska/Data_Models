@@ -82,7 +82,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>OA5J7UcOg/qQ2S5HjZTuFXu2A7w=30/01/2019 18:21:5228/01/2019 12:59:44hB0BKso1HP1EzaDWSiBYfovH5IU=30/01/2019 18:07:0528/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>0OgQ+cYiHqL0vjl3NT4rI7dExgI=30/01/2019 19:01:5128/01/2019 12:59:44hB0BKso1HP1EzaDWSiBYfovH5IU=30/01/2019 18:07:0528/01/2019 12:59:44</TimeStamp>
         <ID>
           <String>ContosoCubeITSLA</String>
         </ID>
@@ -99,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-01-30T17:22:05.67Z</LastDeployed>
+  <LastDeployed>2019-01-30T18:02:00.56Z</LastDeployed>
 </DeploymentSnapshot>
