@@ -26,7 +26,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>PpfmXnTjpLY/bVMsmt6cDgNeuGI=29/01/2019 19:02:2128/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>dfRx4Num5Xeqcx98nalGfnYAx3Y=30/01/2019 16:23:3628/01/2019 12:59:44</TimeStamp>
         <ID>
           <String>ContosoDSV</String>
         </ID>
@@ -54,28 +54,28 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>xmHfr3pf9z+/2phNnDwZmTlubBw=29/01/2019 18:27:3428/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>xmHfr3pf9z+/2phNnDwZmTlubBw=30/01/2019 15:38:1628/01/2019 12:59:44</TimeStamp>
         <ID>
           <String>DimStore</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>VL0rOzom+Sm52lNDkT6r9jB6X3Q=29/01/2019 18:27:3429/01/2019 18:27:34</TimeStamp>
+        <TimeStamp>VL0rOzom+Sm52lNDkT6r9jB6X3Q=30/01/2019 15:38:1630/01/2019 15:38:16</TimeStamp>
         <ID>
           <String>DimGeography</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>JFfJgJ8oOl3wfzOppO/dw9v5PVs=29/01/2019 21:01:3829/01/2019 19:08:05</TimeStamp>
+        <TimeStamp>JFfJgJ8oOl3wfzOppO/dw9v5PVs=30/01/2019 15:44:0330/01/2019 15:44:03</TimeStamp>
         <ID>
           <String>DimEntity</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>dmBq/bZtsegHYov2xL54FLboy1E=29/01/2019 19:12:3928/01/2019 12:59:44wzzid/KiDxCWfEbiVMVQLtZcrU0=28/01/2019 13:49:3828/01/2019 12:59:44</TimeStamp>
+        <TimeStamp>Nii2AhcyRoWFyOrkmFCkmFhQJyc=30/01/2019 16:52:4428/01/2019 12:59:44hB0BKso1HP1EzaDWSiBYfovH5IU=30/01/2019 16:52:4428/01/2019 12:59:44</TimeStamp>
         <ID>
           <String>ContosoCubeITSLA</String>
         </ID>
@@ -92,5 +92,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2019-01-29T20:01:42.133333Z</LastDeployed>
+  <LastDeployed>2019-01-30T16:02:00.876667Z</LastDeployed>
 </DeploymentSnapshot>

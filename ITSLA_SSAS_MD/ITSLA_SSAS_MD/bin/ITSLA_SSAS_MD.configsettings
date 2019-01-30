@@ -42,6 +42,14 @@
               </Partition>
             </Partitions>
           </MeasureGroup>
+          <MeasureGroup>
+            <ID>v Fact IT Machine</ID>
+            <Partitions>
+              <Partition>
+                <ID>v Fact IT Machine</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
         </MeasureGroups>
       </Cube>
     </Cubes>
