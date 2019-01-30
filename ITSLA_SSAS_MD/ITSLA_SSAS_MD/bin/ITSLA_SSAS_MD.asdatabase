@@ -2592,6 +2592,28 @@ CREATE MEMBER CURRENTCUBE.[Measures].[KosztSredni]
 ;</Text>
             </Command>
           </Commands>
+          <CalculationProperties>
+            <CalculationProperty>
+              <CalculationReference>[Measures].[Max-Min]</CalculationReference>
+              <CalculationType>Member</CalculationType>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>RoznicaMinMax</Caption>
+                </Translation>
+              </Translations>
+            </CalculationProperty>
+            <CalculationProperty>
+              <CalculationReference>[Measures].[KosztSredni]</CalculationReference>
+              <CalculationType>Member</CalculationType>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>SredniKoszt</Caption>
+                </Translation>
+              </Translations>
+            </CalculationProperty>
+          </CalculationProperties>
         </MdxScript>
       </MdxScripts>
     </Cube>

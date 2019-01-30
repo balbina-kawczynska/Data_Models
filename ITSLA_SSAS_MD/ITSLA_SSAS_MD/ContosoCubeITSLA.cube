@@ -913,6 +913,28 @@ CREATE MEMBER CURRENTCUBE.[Measures].[KosztSredni]
 ;</Text>
         </Command>
       </Commands>
+      <CalculationProperties>
+        <CalculationProperty dwd:design-time-name="51881ecd-e462-4b99-bd37-00926db3f58b">
+          <CalculationReference>[Measures].[Max-Min]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="6244820b-3b9e-496c-8c1c-1be7b1eae325">
+              <Language>1045</Language>
+              <Caption>RoznicaMinMax</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+        <CalculationProperty dwd:design-time-name="32e0c5f7-96a1-4a79-946b-f237402c59ca">
+          <CalculationReference>[Measures].[KosztSredni]</CalculationReference>
+          <CalculationType>Member</CalculationType>
+          <Translations>
+            <Translation dwd:design-time-name="b237dbc0-203a-4c1d-be39-ae236caa1c49">
+              <Language>1045</Language>
+              <Caption>SredniKoszt</Caption>
+            </Translation>
+          </Translations>
+        </CalculationProperty>
+      </CalculationProperties>
     </MdxScript>
   </MdxScripts>
 </Cube>
