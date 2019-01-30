@@ -2454,6 +2454,13 @@
                   <ColumnID>CostAmount</ColumnID>
                 </Source>
               </Source>
+              <FormatString>#,##0.00</FormatString>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>KosztMinimum</Caption>
+                </Translation>
+              </Translations>
             </Measure>
             <Measure>
               <ID>Maximum Cost Amount</ID>
@@ -2466,6 +2473,13 @@
                   <ColumnID>CostAmount</ColumnID>
                 </Source>
               </Source>
+              <FormatString>#,##0.00</FormatString>
+              <Translations>
+                <Translation>
+                  <Language>1045</Language>
+                  <Caption>KosztMaksimum</Caption>
+                </Translation>
+              </Translations>
             </Measure>
           </Measures>
           <StorageMode>Molap</StorageMode>

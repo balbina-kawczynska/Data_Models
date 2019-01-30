@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="42" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7603" scrolltop="7232" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8520" y="12779" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="42" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7603" scrolltop="7232" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8520" y="13309" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -791,6 +791,13 @@
               <ColumnID>CostAmount</ColumnID>
             </Source>
           </Source>
+          <FormatString>#,##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="1a3fc59f-8ae7-4b8e-888d-70fdd21f9e4a">
+              <Language>1045</Language>
+              <Caption>KosztMinimum</Caption>
+            </Translation>
+          </Translations>
         </Measure>
         <Measure dwd:design-time-name="6aa08c09-164d-4dec-bee1-f20bbb1fa51d">
           <ID>Maximum Cost Amount</ID>
@@ -803,6 +810,13 @@
               <ColumnID>CostAmount</ColumnID>
             </Source>
           </Source>
+          <FormatString>#,##0.00</FormatString>
+          <Translations>
+            <Translation dwd:design-time-name="22bfec18-37aa-45ba-8e89-d87cc3a73855">
+              <Language>1045</Language>
+              <Caption>KosztMaksimum</Caption>
+            </Translation>
+          </Translations>
         </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
